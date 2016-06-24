@@ -1,0 +1,80 @@
+:root{
+    --colour-blue: rgb(0, 172, 241);
+    --colour-lightblue: rgb(51, 204, 255);
+
+}
+
+
+.navbar-nav{
+    float: none;
+    margin: auto;
+    display: table;
+    table-layout: fixed;
+    padding-right: 40px;
+}
+.navbar {
+    margin: auto;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+}
+
+.brand-logo {
+    max-height: 100%;
+    margin-top: 8px;
+    padding-right: 0;
+    padding-left: 40px;
+}
+
+.navbar-default {
+    border-width: 0px;
+    border-radius: 0px;
+    background: white;
+}
+
+
+.navbar-brand,
+.navbar-nav li a {
+    --height: 70px;
+    line-height: var(--height);
+    height: var(--height);
+    padding-top: 0;
+    --padding-left-right: 100px;
+    padding-right: var(--padding-left-right);
+    padding-left: var(--padding-left-right);
+}
+
+
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom: 10px solid var(--colour-lightblue);
+}
+
+
+/*Fonts*/
+
+/*Brand font*/
+.navbar-default .navbar-brand {
+
+}
+
+/*Link font  */
+
+.navbar-default .navbar-nav>li>a {
+    color: var(--colour-blue);
+    font-size: 40px;
+}
+
+/*Hover font color*/
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: var(--colour-blue);
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: var(--colour-blue);
+    border-bottom: 10px solid var(--colour-lightblue);
+    background: white;
+}

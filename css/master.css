@@ -1,0 +1,11 @@
+body {
+    background: rgb(0, 172, 241);
+    font-family: 'Chathura', sans-serif;
+}
+
+
+.container-content {
+    width: 90%;
+    background-color: white;
+    margin-top: 70px;
+}
