@@ -7,18 +7,19 @@
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="/css/navbar.css">
         <link rel="stylesheet" href="/css/master.css">
-        <link href="https://fonts.googleapis.com/css?family=Chathura" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+
 
         <title>Rizi Hub - Home</title>
     </head>
     <body>
         <!-- Navbar -->
-        <div>
-        <nav class="navbar navbar-default navbar-fixed-top">
+
+        <nav id="my-navbar" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html">
-                        <img class="brand-logo" src="/resources/Icon_RH.png" />
+                        <img class="brand-logo" src="/resources/Icon.png" />
                     </a>
                 </div>
                 <!-- Navigation links -->
@@ -30,12 +31,20 @@
                 </ul>
             </div>
         </nav>
-        </div>
 
         <!--Content-->
-        <div class="container-fluid container-content">
+        <div id="content" class="container-fluid container-content">
             <!--Logo Image-->
             <img src="/resources/Logo.png" class="img-responsive" id="welcome-image" />
+            <!-- Welcome Text -->
+            <h1>Welcome</h1>
+            <p>
+                At Rizi Hub we provide software for your business.
+            </p>
         </div>
+
+
+        <!-- Make sure that the navbar stays above the content -->
+        <script src="/scripts/master.js"></script>
     </body>
 </html>
