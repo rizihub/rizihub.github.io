@@ -10,7 +10,8 @@
     margin: auto;
     display: table;
     table-layout: fixed;
-    padding-right: 40px;
+    padding-right: 170px;
+    text-align: center;
 }
 .navbar {
     margin: auto;
@@ -40,7 +41,7 @@
     line-height: var(--height);
     height: var(--height);
     padding-top: 0;
-    --padding-left-right: 100px;
+    --padding-left-right: 60px;
     padding-right: var(--padding-left-right);
     padding-left: var(--padding-left-right);
 }

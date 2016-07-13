@@ -1,0 +1,15 @@
+.description {
+    font-size: 22px;
+    height: 100%;
+}
+
+.description-logos {
+    height: 32px;
+}
+
+
+#information {
+    color: white;
+    background-color: rgb(51, 204, 255);
+    border-radius: 5px;
+}
